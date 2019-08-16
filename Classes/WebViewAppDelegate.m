@@ -25,7 +25,7 @@
     navigationController.navigationBar.hidden = YES;
     navigationController.toolbar.barStyle = UIBarStyleBlack;
 	WebViewController *webViewController = [[WebViewController alloc] init];
-	webViewController.urlString = @"https://developer.chrome.com/multidevice/ios/overview";
+	webViewController.urlString = @"https://material.balmjs.com/";
 	
 	[navigationController pushViewController:webViewController animated:NO];
 	[webViewController release];
